@@ -105,8 +105,6 @@ class LandingScreen extends Component {
           this.setState({myList: this.props.bookList[i].array});
         }
       }
-    }else{
-      alert(JSON.stringify(this.props.bookList))
     }
   }
 

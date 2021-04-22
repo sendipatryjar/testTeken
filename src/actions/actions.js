@@ -19,7 +19,7 @@ export const GetBook = (keys) => async (dispatch) => {
       } else {
         dispatch({ type: REQ_FAILED, payload: response.status });
       }
-    } catch (err) { alert(JSON.stringify(err))
+    } catch (err) { 
       dispatch({ type: REQ_FAILED, payload: error.response.status });
   }
 };
